@@ -3,10 +3,19 @@
  */
 html {
     overflow-y: scroll;
+    background-color: #b3cce6;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
 }
 
 body {
     margin: 8px auto;
     background: #fff;
-    width: 700px;
+    width: 800px;
+    background-color: #b3cce6;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
