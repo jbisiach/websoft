@@ -5,14 +5,14 @@
     var schoolSelect = document.getElementById("schoolSelect")
     var schoolTable = document.getElementById("schoolTable")
 
-    fetch('data/kommun_nrs.json')
+    fetch('data/kommun.json')
         .then(res => { return res.json() })
         .then(jsonObj => {
          //   console.log(jsonObj)
 
-            for (var i = 0; i < jsonObj.Kommun.length; i++) {
+            for (var i = 0; i < jsonObj.Kommuner.length; i++) {
                 var opt = document.createElement('option');
-                var kommun = jsonObj.Kommun[i];
+                var kommun = jsonObj.Kommuner[i];
                 opt.appendChild(document.createTextNode(kommun.Namn))
                 opt.value = kommun.Kommunkod
                 kommunNr = kommun.Kommunkod

@@ -8,6 +8,6 @@ function moveElmRand(elm){
     
    var duck = document.querySelector('#duck'); 
     
-   duck.addEventListener('mouseenter', function(e){ moveElmRand(e.target);}); 
+   duck.addEventListener('mouseover', function(e){ moveElmRand(e.target);}); 
     
    btn_test.addEventListener('click', function(e){ alert('Fast hands!');});
