@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 function main() {
     let a = 1;
