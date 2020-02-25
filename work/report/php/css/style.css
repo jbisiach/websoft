@@ -1,0 +1,28 @@
+/*
+ * Comments are written as C++ style. 
+ */
+html {
+    overflow-y: scroll;
+    background-color: #b3cce6;
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    margin: 8px auto;
+    background: #fff;
+    width: 800px;
+    background-color: #b3cce6;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .duck{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/duck.png);
+    background-size: 64px;
+}

@@ -1,0 +1,18 @@
+{
+    "Uttagsdatum": "2020-02-14T14:20:30.7631312+01:00",
+    "Fotnot": "",
+    "Kommuner": [
+        {
+            "Kommunkod": "1440",
+            "Namn": "Ale"
+        },
+        {
+            "Kommunkod": "1489",
+            "Namn": "Alingsås"
+        },
+        {
+            "Kommunkod": "0764",
+            "Namn": "Alvesta"
+        }
+    ]
+}

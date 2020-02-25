@@ -1,0 +1,32 @@
+html {
+    overflow-y: scroll;
+    background-color: #b3cce6;
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+}
+
+#top {
+    width: 300px;
+    height: 50px;
+}
+
+#mid {
+    width: 300px;
+    height: 50px;
+}
+
+#bot {
+    width: 300px;
+    height: 50px;
+}
+
+body {
+    background-color: #b3cce6
+}
+
+.duck{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/duck.png);
+    background-size: 64px;
+}
