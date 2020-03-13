@@ -294,27 +294,38 @@
 
     <section>
       <h2>S09</h2>
-      <p>Here is the text for this section.</p>
+      <p>I found this section paticualrly interesting as it is an branch of study I plan to follow when (if) I graduate.
+        Namely, the field of network forensics. Being a veteran user of the internet, website security is something I
+        often considering when using the web, but learning about it from the development is a real eye-opener. Up until
+        now, the only security measures we implemented as part of application development was a three-chance login
+        system and two-factor authentication. We did study a unit in Computer Security, but I really have liked to spend
+        more time in this area of study, the being website secuirty from a developer's perspective in particular.</p>
+
+      <p>Another aspect I found interesting was the OWASP Top Ten list, especially when comparing the list from 2013 to
+        2017 and today.</p>
+
+      <p>Some security issues or concerns from your my own experience:</p>
+      <ul>
+        <li>Input sanitsing - This is something I don't usual consider when designing an applicaiton or lately a
+          website, espeically considering 'injection flaws' has remained on the top of OWASP's Top Ten list since at
+          least 2013.</li>
+        <li>Using components with known vulnerabilities - At this stage of our programming experience, we are proabably
+          more concerned with finding components and APIs that acutally work the way we want them to rather than being
+          concerned with how secure they are.</li>
+        <li>Insufficient logging and monitoring - As with the previous issues, this is something I have not considered
+          when building applicaitons and website during the course. Indeed, unless an attack came that was obvious, such
+          as changing an interface, recognising and resposnding to an attack would be something I would be largely
+          unprepared for. I would have really liked to exlpore this more in this unit.</li>
+      </ul>
+
+      <h3>TIL:</h3>
+      <ul>
+        <li>Abiut OWASP and their historic Top Ten securtiy vulnerabilities</li>
+        <li>Fundamentals of the Top Ten security vulnerabilities and what impact they could have if exploited</li>
+        <li>Commonly overlooked security fundamentals and what hackers look for to be able to exploit these flaws</li>
+        <li>There is a lot more to consider when building a website apart from aesthetics</li>
+      </ul>
     </section>
-
-    Issue 1: Input Sanitizing. This is something I don't do nearly enough. In the OWASP top ten this vulnerability is number 1.
-
-    Issue 2: Having safe URLs in terms of redirecting and reading data from URLs. Also applicable when creating APIs. In my experience I quite often get data straight from the URLs (especially in some of the course assignments), which is not a good idea since this is very open to injection. In the OWASP top ten this would fall under injection (number 1) and possibly XSS (number 7).
-    
-    Issue 3: Serializing and deserializing of objects. This is something I had never even considered to be a vulnerability, and which makes it all the more dangerous. In the OWASP top ten this vulnerability is number 8.
-    
-    So the main guidelines I would give are: sanitize your input, practice the principle of least privilege, move any data through the safest possible channels, make sure you configure everything as safe as possible.
-    
-    I learned:
-    
-    - Of the existence of the OWASP top ten securtiy vulnerabilities
-    
-    - Roughly what each of the OWASP top ten entails and how to generally prevent them
-    
-    - Of the existence of several vulnerabilities that I'd never considered
-    
-    - That some of my practices are very unsafe
-
 
     <section>
       <h2>S10</h2>
@@ -323,7 +334,8 @@
 
     <footer>
       <hr>
-      <p>Provide a nice footer to your report.</p>
+      <p><i>“Websites promote you 24/7: No employee will do that.”</i></p>
+      <p><i>- Paul Cookson</i></p>
     </footer>
 
   </article>
